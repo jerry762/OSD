@@ -77,7 +77,7 @@
       <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
     </ClCompile>
     <Link>
-      <SubSystem>Console</SubSystem>
+      <SubSystem>Windows</SubSystem>
       <GenerateWindowsMetadata>false</GenerateWindowsMetadata>
     </Link>
   </ItemDefinitionGroup>
@@ -110,8 +110,26 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
+    <None Include="cat-5-svgrepo-com.svg">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="cat-svgrepo-com.svg">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="drawing.svg">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="gene-sequencing-svgrepo-com.svg">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
     <None Include="packages.config" />
     <None Include="PropertySheet.props" />
+    <None Include="square-shapes-and-symbols-svgrepo-com.svg">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="squaredsos-svgrepo-com.svg">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
     <Text Include="readme.txt">
       <DeploymentContent>false</DeploymentContent>
     </Text>
